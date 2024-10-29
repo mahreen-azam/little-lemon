@@ -1,6 +1,6 @@
 //
 //  MenuList.swift
-//  CourseraCapstone
+//  LittleLemonCapstone
 //
 //  Created by Mahreen Azam on 10/22/24.
 //

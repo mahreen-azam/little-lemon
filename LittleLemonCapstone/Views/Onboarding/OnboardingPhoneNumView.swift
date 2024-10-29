@@ -1,6 +1,6 @@
 //
 //  OnboardingPhoneNumView.swift
-//  CourseraCapstone
+//  LittleLemonCapstone
 //
 //  Created by Mahreen Azam on 10/26/24.
 //

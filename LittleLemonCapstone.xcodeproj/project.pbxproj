@@ -18,7 +18,7 @@
 		BAE253312CD14E2400648188 /* NavigationPathHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE253302CD14E2400648188 /* NavigationPathHandler.swift */; };
 		BAE253332CD152E000648188 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE253322CD152E000648188 /* AppColors.swift */; };
 		BAE253352CD154A900648188 /* UserDefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE253342CD154A900648188 /* UserDefaultKeys.swift */; };
-		BAED4F182C6EF89000B1C3B7 /* CourseraCapstoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED4F172C6EF89000B1C3B7 /* CourseraCapstoneApp.swift */; };
+		BAED4F182C6EF89000B1C3B7 /* LittleLemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED4F172C6EF89000B1C3B7 /* LittleLemonApp.swift */; };
 		BAED4F1C2C6EF89700B1C3B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAED4F1B2C6EF89700B1C3B7 /* Assets.xcassets */; };
 		BAED4F1F2C6EF89700B1C3B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAED4F1E2C6EF89700B1C3B7 /* Preview Assets.xcassets */; };
 		BAED4F262CA4B5C500B1C3B7 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED4F252CA4B5C500B1C3B7 /* OnboardingView.swift */; };
@@ -38,8 +38,8 @@
 		BAE253302CD14E2400648188 /* NavigationPathHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPathHandler.swift; sourceTree = "<group>"; };
 		BAE253322CD152E000648188 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		BAE253342CD154A900648188 /* UserDefaultKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultKeys.swift; sourceTree = "<group>"; };
-		BAED4F142C6EF89000B1C3B7 /* CourseraCapstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourseraCapstone.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAED4F172C6EF89000B1C3B7 /* CourseraCapstoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseraCapstoneApp.swift; sourceTree = "<group>"; };
+		BAED4F142C6EF89000B1C3B7 /* LittleLemonCapstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleLemonCapstone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAED4F172C6EF89000B1C3B7 /* LittleLemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonApp.swift; sourceTree = "<group>"; };
 		BAED4F1B2C6EF89700B1C3B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAED4F1E2C6EF89700B1C3B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BAED4F252CA4B5C500B1C3B7 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 		BAED4F0B2C6EF89000B1C3B7 = {
 			isa = PBXGroup;
 			children = (
-				BAED4F162C6EF89000B1C3B7 /* CourseraCapstone */,
+				BAED4F162C6EF89000B1C3B7 /* LittleLemonCapstone */,
 				BAED4F152C6EF89000B1C3B7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,15 +118,15 @@
 		BAED4F152C6EF89000B1C3B7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BAED4F142C6EF89000B1C3B7 /* CourseraCapstone.app */,
+				BAED4F142C6EF89000B1C3B7 /* LittleLemonCapstone.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BAED4F162C6EF89000B1C3B7 /* CourseraCapstone */ = {
+		BAED4F162C6EF89000B1C3B7 /* LittleLemonCapstone */ = {
 			isa = PBXGroup;
 			children = (
-				BAED4F172C6EF89000B1C3B7 /* CourseraCapstoneApp.swift */,
+				BAED4F172C6EF89000B1C3B7 /* LittleLemonApp.swift */,
 				BAE2532F2CD14E0300648188 /* Utils */,
 				BA3B5F6D2CC80459005BC6DE /* Models */,
 				BA3B5F6C2CC8043B005BC6DE /* Views */,
@@ -135,7 +135,7 @@
 				BAED4F1D2C6EF89700B1C3B7 /* Preview Content */,
 				BA3B5F722CC813BF005BC6DE /* ExampleDatabase.xcdatamodeld */,
 			);
-			path = CourseraCapstone;
+			path = LittleLemonCapstone;
 			sourceTree = "<group>";
 		};
 		BAED4F1D2C6EF89700B1C3B7 /* Preview Content */ = {
@@ -149,9 +149,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BAED4F132C6EF89000B1C3B7 /* CourseraCapstone */ = {
+		BAED4F132C6EF89000B1C3B7 /* LittleLemonCapstone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BAED4F222C6EF89700B1C3B7 /* Build configuration list for PBXNativeTarget "CourseraCapstone" */;
+			buildConfigurationList = BAED4F222C6EF89700B1C3B7 /* Build configuration list for PBXNativeTarget "LittleLemonCapstone" */;
 			buildPhases = (
 				BAED4F102C6EF89000B1C3B7 /* Sources */,
 				BAED4F112C6EF89000B1C3B7 /* Frameworks */,
@@ -161,9 +161,9 @@
 			);
 			dependencies = (
 			);
-			name = CourseraCapstone;
+			name = LittleLemonCapstone;
 			productName = CourseraCapstone;
-			productReference = BAED4F142C6EF89000B1C3B7 /* CourseraCapstone.app */;
+			productReference = BAED4F142C6EF89000B1C3B7 /* LittleLemonCapstone.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -181,7 +181,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BAED4F0F2C6EF89000B1C3B7 /* Build configuration list for PBXProject "CourseraCapstone" */;
+			buildConfigurationList = BAED4F0F2C6EF89000B1C3B7 /* Build configuration list for PBXProject "LittleLemonCapstone" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -194,7 +194,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BAED4F132C6EF89000B1C3B7 /* CourseraCapstone */,
+				BAED4F132C6EF89000B1C3B7 /* LittleLemonCapstone */,
 			);
 		};
 /* End PBXProject section */
@@ -230,7 +230,7 @@
 				BA3B5F712CC804A5005BC6DE /* MenuItem.swift in Sources */,
 				BAE253332CD152E000648188 /* AppColors.swift in Sources */,
 				BAED4F262CA4B5C500B1C3B7 /* OnboardingView.swift in Sources */,
-				BAED4F182C6EF89000B1C3B7 /* CourseraCapstoneApp.swift in Sources */,
+				BAED4F182C6EF89000B1C3B7 /* LittleLemonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +358,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CourseraCapstone/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LittleLemonCapstone/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -371,7 +371,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.CourseraCapstone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LittleLemonCapstone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -386,7 +386,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CourseraCapstone/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LittleLemonCapstone/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -399,7 +399,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.CourseraCapstone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LittleLemonCapstone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -410,7 +410,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BAED4F0F2C6EF89000B1C3B7 /* Build configuration list for PBXProject "CourseraCapstone" */ = {
+		BAED4F0F2C6EF89000B1C3B7 /* Build configuration list for PBXProject "LittleLemonCapstone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BAED4F202C6EF89700B1C3B7 /* Debug */,
@@ -419,7 +419,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BAED4F222C6EF89700B1C3B7 /* Build configuration list for PBXNativeTarget "CourseraCapstone" */ = {
+		BAED4F222C6EF89700B1C3B7 /* Build configuration list for PBXNativeTarget "LittleLemonCapstone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BAED4F232C6EF89700B1C3B7 /* Debug */,

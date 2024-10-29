@@ -1,6 +1,6 @@
 //
 //  OnboardingNameView.swift
-//  CourseraCapstone
+//  LittleLemonCapstone
 //
 //  Created by Mahreen Azam on 10/25/24.
 //
